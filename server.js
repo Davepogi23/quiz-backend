@@ -11,8 +11,8 @@ const app = express();
 
 // 👇 Updated CORS configuration
 const allowedOrigins = [
-  'http://localhost:3000',                     // React dev server
-   https://voluble-banoffee-8ae350.netlify.app/login        // Replace with your Netlify URL
+  'http://localhost:3000',
+  'https://voluble-banoffee-8ae350.netlify.app/login' // ✅ wrapped in quotes
 ];
 
 app.use(cors({
